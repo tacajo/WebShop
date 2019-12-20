@@ -1,0 +1,388 @@
+[
+  {
+    "username": "mrs_iv",
+    "password": "asd",
+    "ime": "Ivana",
+    "prezime": "Kovacevic",
+    "uloga": "prodavac",
+    "telefon": "0654686353",
+    "grad": "Novi Sad",
+    "email": "iavanakov@gmail.com",
+    "datum": "2019-08-16",
+    "poslatePoruke": [],
+    "primljenePoruke": [
+      {
+        "nazivOglasa": "ANIMAL PRINT MINI BAG",
+        "posiljalac": "taca_jo",
+        "naslovPoruke": "Information for mini bag",
+        "sadrzaj": "Could you tell me dimension of this bag.Greeting.",
+        "datumVreme": "8/28/2019 23:18",
+        "aktivan": true,
+        "primalac": "mrs_iv"
+      }
+    ],
+    "objavljeni": [
+      {
+        "naziv": "METHACRYLATE BLOCK-HEEL SANDALS",
+        "cena": "350",
+        "opis": "Yellow high-heel sandals. Three thin straps on the front. High methacrylate block heel. Buckled ankle strap.\n\nHeel height of 10.5 cm.",
+        "lajk": 0,
+        "dislajk": 0,
+        "slika": "/images/sandals2.jpg",
+        "datumPostavljanja": "1568246400000",
+        "datumIsticanja": "1569542400000",
+        "aktivan": true,
+        "recenzije": [],
+        "grad": "Jakarta, Indonesia",
+        "kategorija": "Heels",
+        "status": "aktivan",
+        "prodavac": "mrs_iv",
+        "wished": 3
+      },
+      {
+        "naziv": "ANIMAL PRINT MINI BAG",
+        "cena": "150",
+        "opis": "Mini city bag available in lime and coral. Animal print exterior. Metal clasp on the flap. Top carry handle. Chain shoulder strap. Lined interior with two compartments. Magnetic clasp closure.\n\nHeight x Length x Width: 12 x 19 x 9 cm. / 4.7 x 7.4 ",
+        "lajk": 0,
+        "dislajk": 0,
+        "slika": "/images/bag22.jpg",
+        "datumPostavljanja": "1567555200000",
+        "datumIsticanja": "1573603200000",
+        "aktivan": true,
+        "recenzije": [],
+        "grad": "Surat, India",
+        "kategorija": "Bags",
+        "status": "aktivan",
+        "prodavac": "mrs_iv",
+        "wished": 6
+      },
+      {
+        "naziv": "MULTICOLOURED KNIT DRESS",
+        "cena": "375",
+        "opis": "Long sleeveless knit dress with V-neckline.\nHEIGHT OF MODEL: 177cm",
+        "lajk": 0,
+        "dislajk": 0,
+        "slika": "/images/dressTWO.jpg",
+        "datumPostavljanja": "1567555200000",
+        "datumIsticanja": "1569542400000",
+        "aktivan": true,
+        "recenzije": [],
+        "grad": "Berlin, Germany",
+        "kategorija": "Dresses",
+        "status": "aktivan",
+        "prodavac": "mrs_iv",
+        "wished": 2
+      },
+      {
+        "naziv": "SUEDE SANDALS WITH HEEL",
+        "cena": "150",
+        "opis": "Red leather high heel sandals available in grey and red. Featuring a suede upper, a thin strap across the front, lined stiletto heels and fastened with a buckle at the ankle.\n\nHeel height of 9.3 cm.",
+        "lajk": 0,
+        "dislajk": 0,
+        "slika": "/images/sandals.jpg",
+        "datumPostavljanja": "1567555200000",
+        "datumIsticanja": "1569542400000",
+        "aktivan": true,
+        "recenzije": [],
+        "grad": "Kyiv, Ukraine",
+        "kategorija": "Heels",
+        "status": "aktivan",
+        "prodavac": "mrs_iv",
+         "wished" : 5
+      },
+      {
+        "naziv": "LEATHER HIGH-HEEL BOOTS WITH PATENT FINISH",
+        "cena": "400",
+        "opis": "High-heel red leather boots. Leather upper. Patent finish with cracked effect. High leg. Lined block heel. Square cut toe. Inside zip fastening.",
+        "lajk": 0,
+        "dislajk": 0,
+        "slika": "/images/boots5.jpg",
+        "datumPostavljanja": "1567296000000",
+        "datumIsticanja": "1569628800000",
+        "aktivan": true,
+        "recenzije": [],
+        "grad": "Belgrade, Serbia",
+        "kategorija": "Boots",
+        "status": "aktivan",
+        "prodavac": "mrs_iv",
+        "wished": 7
+      }
+    ],
+    "isporuceni": [],
+    "poruke": [],
+    "lajk": 0,
+    "dislajk": 0,
+    "recenzije": [],
+    "report" :  0
+  },
+  {
+    "username": "imfashionbabe",
+    "password": "123",
+    "ime": "Dunja",
+    "prezime": "Jovanic",
+    "uloga": "prodavac",
+    "telefon": "0625686513",
+    "grad": "Beograd",
+    "email": "dunja@gmail.com",
+    "datum": "2019-08-20",
+    "poslatePoruke": [
+      {
+        "nazivOglasa": "",
+        "posiljalac": "imfashionbabe",
+        "naslovPoruke": "Information",
+        "sadrzaj": "Could you tell me, can I set more then one picture when I add new ad. Greeting.",
+        "datumVreme": "8/29/2019 14:27",
+        "aktivan": true,
+        "primalac": "admin"
+      },
+      {
+        "nazivOglasa": "",
+        "posiljalac": "imfashionbabe",
+        "naslovPoruke": "Reply to message",
+        "sadrzaj": "Material is silk.",
+        "datumVreme": "8/29/2019 14:58",
+        "aktivan": true,
+        "primalac": "taca_jo"
+      }
+    ],
+    "primljenePoruke": [
+      {
+        "nazivOglasa": "FLORAL PRINT  MIDI SKIRT",
+        "posiljalac": "taca_jo",
+        "naslovPoruke": "Floral skirt",
+        "sadrzaj": "Could you tell me, which material is used to make this beautiful skirt.I look forward to hearing from you.",
+        "datumVreme": "8/28/2019 23:13",
+        "aktivan": true,
+        "primalac": "imfashionbabe"
+      },
+      {
+        "nazivOglasa": "",
+        "posiljalac": "admin",
+        "naslovPoruke": "Reply to message",
+        "sadrzaj": "Unfortunately, you can add only one picture. Greeting.",
+        "datumVreme": "8/29/2019 14:30",
+        "aktivan": true,
+        "primalac": "imfashionbabe"
+      },
+      {
+        "nazivOglasa": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+        "posiljalac": "automatic message",
+        "naslovPoruke": "Edited Review",
+        "sadrzaj": "The review on your ad: PINK COLLECTION TIED LEATHER HEELED SANDALS is edited.",
+        "datumVreme": "9/8/2019 14:21",
+        "aktivan": true,
+        "primalac": "imfashionbabe"
+      },
+      {
+        "nazivOglasa": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+        "posiljalac": "automatic message",
+        "naslovPoruke": "New Review",
+        "sadrzaj": "You have new Review on your ad: PINK COLLECTION TIED LEATHER HEELED SANDALS, by: taca_jo.",
+        "datumVreme": "9/8/2019 14:22",
+        "aktivan": true,
+        "primalac": "imfashionbabe"
+      }
+    ],
+    "objavljeni": [
+      {
+        "naziv": "FLORAL PRINT  MIDI SKIRT",
+        "cena": "75",
+        "opis": "Flowing skirt with side fastening hidden in the seam.\n\nHEIGHT OF MODEL: 177 CM.",
+        "lajk": 0,
+        "dislajk": 0,
+        "slika": "/images/skirt5.jpg",
+        "datumPostavljanja": "1568246400000",
+        "datumIsticanja": "1569542400000",
+        "aktivan": true,
+        "recenzije": [],
+        "grad": "Guangzhou, China",
+        "kategorija": "Skirts",
+        "status": "aktivan",
+        "prodavac": "imfashionbabe",
+        "wished": 0
+      },
+      {
+        "naziv": "HIGH HEEL LEATHER ANKLE BOOTS",
+        "cena": "370",
+        "opis": "Red round-heel ankle boots. Faux patent leather upper. Zip detail on the front. Lined round heels.\n\nHeel height: 9 cm.",
+        "lajk": 0,
+        "dislajk": 0,
+        "slika": "/images/boots4.jpg",
+        "datumPostavljanja": "1567296000000",
+        "datumIsticanja": "1569628800000",
+        "aktivan": false,
+        "recenzije": [],
+        "grad": "Tokyo, Japan",
+        "kategorija": "Boots",
+        "status": "aktivan",
+        "prodavac": "imfashionbabe",
+        "wished": 2
+      },
+      {
+        "naziv": "SEQUINNED FRINGE DRESS",
+        "cena": "225",
+        "opis": "Short sleeve dress with a round neckline. Featuring a matching interior, fringed trims, sequin appliqu\n",
+        "lajk": 0,
+        "dislajk": 0,
+        "slika": "/images/dressSIX.jpg",
+        "datumPostavljanja": "1569628800000",
+        "datumIsticanja": "1573603200000",
+        "aktivan": true,
+        "recenzije": [],
+        "grad": "Lima, Peru",
+        "kategorija": "Dresses",
+        "status": "aktivan",
+        "prodavac": "imfashionbabe",
+        "wished": 2
+      },
+      {
+        "naziv": "RUFFLED SATIN DRESS",
+        "cena": "195",
+        "opis": "Mini dress with a round neckline and short sleeves. Featuring an elastic waist, ruffle trims and a buttoned opening on the back.",
+        "lajk": 0,
+        "dislajk": 0,
+        "slika": "/images/dressTHREE.jpg",
+        "datumPostavljanja": "1567296000000",
+        "datumIsticanja": "1573603200000",
+        "aktivan": true,
+        "recenzije": [],
+        "grad": "Novi Sad, Serbia",
+        "kategorija": "Dresses",
+        "status": "aktivan",
+        "prodavac": "imfashionbabe",
+        "wished": 4
+      },
+      {
+        "naziv": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+        "cena": "250",
+        "opis": "Heeled leather sandals available in multiple colors: fuchsia and silver. Leather upper. Thin straps at front. Lined high heels. Squared toe. Tie ankle closure.",
+        "lajk": 6,
+        "dislajk": 7,
+        "slika": "/images/heels3.jpg",
+        "datumPostavljanja": "1569628800000",
+        "datumIsticanja": "1573603200000",
+        "aktivan": true,
+        "recenzije": [
+          {
+            "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+            "recenzent": "taca_jo",
+            "naslov": "Incorrect information",
+            "sadrzaj": "Heel height is 11.5 cm.",
+            "slika": "/images/heels31.jpg",
+            "oglasTacan": true,
+            "dogovor": true,
+            "aktivan": true
+          },
+          {
+            "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+            "recenzent": "taca_jo",
+            "naslov": "Deal",
+            "sadrzaj": "I am waiting for order more then 1 month! But the heels are beautiful.",
+            "slika": "/images/heels32.jpg",
+            "oglasTacan": true,
+            "dogovor": false,
+            "aktivan": false
+          },
+          {
+            "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+            "recenzent": "taca_jo",
+            "naslov": "Order",
+            "sadrzaj": "The product is visually perfect, that being sad this is one of the few cases in AliExpress in which you have to get your exact size or smaller. My shoes are good to walk in (mostly) and are lovely. They are a bit slippery so I might have to get them fixed. It was sadly a whole 3 days later then it was supposed to be here. But itÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s still here early and the seller was respectful.",
+            "slika": "",
+            "oglasTacan": true,
+            "dogovor": true,
+            "aktivan": true
+          }
+        ],
+        "grad": "Beograd, Serbia",
+        "kategorija": "Heels",
+        "status": "dostavljen",
+        "prodavac": "imfashionbabe",
+        "wished": 10
+      },
+      {
+        "naziv": "TRACK SOLE TALL BOOTS",
+        "cena": "380",
+        "opis": "Black flat tall boots. Reinforced toecaps. Track soles.",
+        "lajk": 0,
+        "dislajk": 0,
+        "slika": "/images/boots6.jpg",
+        "datumPostavljanja": "1567296000000",
+        "datumIsticanja": "1569628800000",
+        "aktivan": true,
+        "recenzije": [],
+        "grad": "Belgrade, Serbia",
+        "kategorija": "Boots",
+        "status": "aktivan",
+        "prodavac": "imfashionbabe",
+        "wished": 4
+      }
+    ],
+    "isporuceni": [
+      {
+        "naziv": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+        "cena": "250",
+        "opis": "Heeled leather sandals available in multiple colors: fuchsia and silver. Leather upper. Thin straps at front. Lined high heels. Squared toe. Tie ankle closure.",
+        "lajk": 6,
+        "dislajk": 7,
+        "slika": "/images/heels3.jpg",
+        "datumPostavljanja": "1569628800000",
+        "datumIsticanja": "1573603200000",
+        "aktivan": true,
+        "recenzije": [
+          {
+            "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+            "recenzent": "taca_jo",
+            "naslov": "Incorrect information",
+            "sadrzaj": "Heel height is 11.5 cm.",
+            "slika": "/images/heels31.jpg",
+            "oglasTacan": true,
+            "dogovor": true,
+            "aktivan": true
+          },
+          {
+            "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+            "recenzent": "taca_jo",
+            "naslov": "Deal",
+            "sadrzaj": "I am waiting for order more then 1 month! But the heels are beautiful.",
+            "slika": "/images/heels32.jpg",
+            "oglasTacan": true,
+            "dogovor": false,
+            "aktivan": false
+          },
+          {
+            "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+            "recenzent": "taca_jo",
+            "naslov": "Order",
+            "sadrzaj": "The product is visually perfect, that being sad this is one of the few cases in AliExpress in which you have to get your exact size or smaller. My shoes are good to walk in (mostly) and are lovely. They are a bit slippery so I might have to get them fixed. It was sadly a whole 3 days later then it was supposed to be here. But itÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s still here early and the seller was respectful.",
+            "slika": "",
+            "oglasTacan": true,
+            "dogovor": true,
+            "aktivan": true
+          }
+        ],
+        "grad": "Beograd, Serbia",
+        "kategorija": "Heels",
+        "status": "dostavljen",
+        "prodavac": "imfashionbabe",
+        "wished": 10
+      }
+    ],
+    "poruke": [],
+    "lajk": 1,
+    "dislajk": 2,
+    "recenzije": [
+      {
+        "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+        "recenzent": "taca_jo",
+        "naslov": "Message for Seller",
+        "sadrzaj": "Delivery fast to primorsky territory! No smell! Threads do not stick out! Soft and kind of comfortable, but not yet worn! Seller recommend! ",
+        "slika": "/images/heels32.jpg",
+        "oglasTacan": true,
+        "dogovor": true,
+        "aktivan": true
+      }
+    ],
+    "report" :  0
+  }
+]

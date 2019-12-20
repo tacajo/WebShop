@@ -1,0 +1,30 @@
+[ {
+  "username" : "admin",
+  "password" : "123",
+  "ime" : "Tamara",
+  "prezime" : "Jovicic",
+  "uloga" : "administrator",
+  "telefon" : "0644491483",
+  "grad" : "Ruma",
+  "email" : "tacajovicic@gmail.com",
+  "datum" : "2019-08-16",
+  "poslatePoruke" : [ {
+    "nazivOglasa" : "",
+    "posiljalac" : "admin",
+    "naslovPoruke" : "Reply to message",
+    "sadrzaj" : "Unfortunately, you can add only one picture. Greeting.",
+    "datumVreme" : "8/29/2019 14:30",
+    "aktivan" : true,
+    "primalac" : "imfashionbabe"
+  } ],
+  "primljenePoruke" : [ {
+    "nazivOglasa" : "",
+    "posiljalac" : "imfashionbabe",
+    "naslovPoruke" : "Information",
+    "sadrzaj" : "Could you tell me, can I set more then one picture when I add new ad. Greeting.",
+    "datumVreme" : "8/29/2019 14:27",
+    "aktivan" : true,
+    "primalac" : "admin"
+  } ],
+  "report" : 0
+} ]

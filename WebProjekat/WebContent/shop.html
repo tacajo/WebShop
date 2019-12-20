@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Shop</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <script src="./js/lib/jquery-3.3.1.min.js"></script>
+	<script src="./js/lib/popper.min.js"></script>
+	<script src="./js/lib/bootstrap.min.js"></script>    
+    
+    <link href="./css/all.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" type="text/css" href="shopStyle.css">
+    <script type="text/javascript" src="./js/shop.js"></script>
+    <script type="text/javascript" src="./js/administrator.js"></script>
+    <script type="text/javascript" src="./js/ads.js"></script>
+    <script type="text/javascript" src="./js/user.js"></script>
+    <script type="text/javascript" src="./js/customer.js"></script>
+    <script type="text/javascript" src="./js/seller.js"></script>
+    </head>
+  <body>
+
+    <!-----------Navigation----------->
+<nav class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#" id="icon"> <img src="icon.png" id="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a id="home" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProfile" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-user" id="users"></i>Profile
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="ProfileOptions">
+          <a class="dropdown-item" href="#" id="viewProfile">View profile</a>
+          <a class="dropdown-item" href="#" id="logout">Log out</a>
+          <div class="dropdown-divider"></div>
+          
+          <a class="dropdown-item" href="#" id="editCategories">Edit Categories<i class="fas fa-pencil-alt"></i></a>    
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#singup" id="singup"><i class="fa fa-user-plus" id="users"></i>Sing up</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#login" id="login"><i class="fa fa-user" id="users"></i>Log in</a>
+      </li>
+      <li class="nav-item dropdown ">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategories" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Categories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="CategoriesOptions">
+               
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="contact"><i class="far fa-address-book"></i>Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" disabled>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="SearchButton"><i class="fas fa-search"></i></button>
+     	<button class="btn btn-outline-success my-2 my-sm-0" type="button" id="SearchUserButton"><i class="fas fa-search-location"></i></button>
+      
+    </form>
+  </div>
+</nav>
+
+	<section id="searchMenu">
+		<div class="container">
+		<form>
+			<div class="form-row">
+				<div class="col-md-4">
+					<label for="nameSearch"><b>Name</b></label>
+					<input id="nameSearch" type="text" class="form-control" placeholder="Name">
+				</div>
+				<div class="col-md-4">
+					<label for="priceSearch"><b>Price $</b></label>
+					<div class="input-group">
+						<input id="minPriceSearch" type="number" class="form-control" placeholder="min" min=0>
+						<input id="maxPriceSearch" type="number" class="form-control" placeholder="max">						
+					</div>
+				</div>
+				<div class="col-md-4">
+					<label for="citySearch"><b>City</b></label>
+			      <select id="citySearch" class="form-control">
+			        <option selected>Choose...</option>
+			      </select>
+				</div>
+				<div class="col-md-4">
+					<label for="dateSearch"><b>Date of expiration</b></label>
+					<div class="input-group">
+						<input id="minDateSearch" type="date" class="form-control" placeholder="min" >
+						<input id="maxDateSearch" type="date" class="form-control" placeholder="max">						
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<label for="statusSearch"><b>Status</b></label>
+			      <select id="statusSearch" class="form-control">
+			        <option selected>Choose...</option>
+			        <option>active</option>
+			        <option>in realization</option>
+			        <option>delivered</option>
+			      </select>
+				</div>
+				<div class="col-md-4">
+					<label for="likesSearch"><b>Likes</b></label>
+					<div class="input-group">
+						<input id="minLikesSearch" type="number" class="form-control" placeholder="min" min=0>
+						<input id="maxLikesSearch" type="number" class="form-control" placeholder="max" min = 0>						
+					</div>
+				</div>
+			</div>
+			
+		</form>
+		<p id="errorSearch" style = "margin-top: 5px; margin-left: 7px; color: red; font-size: 16px;"></p>
+			<button id = "search"type="button" class="btn btn-success" style = "float: right;">Search</button>
+		<hr>
+		</div>
+	</section>
+	
+	<section id="searchUserMenu">
+		<div class="container">
+		<form>
+			<div class="form-row">
+				<div class="col-md-4">
+					<label for="nameUserSearch"><b>Name</b></label>
+					<input id="nameUserSearch" type="text" class="form-control" placeholder="Name">
+				</div>
+				<div class="col-md-4">
+					<label for="cityUserSearch"><b>City</b></label>
+			      <select id="cityUserSearch" class="form-control">
+			        <option selected>Choose...</option>
+			        
+			      </select>
+				</div>		
+			</div>
+			
+		</form>
+		<button id="searchUser" type="button" class="btn btn-success" style = "float: right;">Search</button>
+		<hr>
+		</div>
+	</section>
+	
+    <!-- Page -->
+          <section id="options">
+            <div class="container">
+
+            <button type="button" class="btn btn-primary" class="col-md-3" data-toggle="modal" data-target="#addAdTarget" id="addAd">
+              Add New Ad
+            </button>
+            
+           
+            
+           
+            
+       		
+           </div>
+          
+           
+          </section>
+          
+          <!-- Modal Add Ads-->        
+          <div class="modal fade" id="addAdTarget" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="tittleAds">Add Ad</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form id="form1">
+                      <div class="form-group">
+                        <label for="nameAd" class="col-form-label">Name:</label>
+                        <input type="text" class="form-control" id="nameAd">
+                      </div>
+                      <div class="form-group">
+	                      <select class="custom-select" id="selectCategory">
+							  	  
+						  </select>
+					  </div>
+                      <div class="form-group">
+                        <label for="priceAd" class="col-form-label">Price:</label>
+                        <input type="number" min=0  class="form-control" id="priceAd">
+                      </div>
+                      <div class="form-group">
+                        <label for="descriptionAd" class="col-form-label">Description:</label>
+                        <textarea class="form-control" id="descriptionAd"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label for="cityAd" class="col-form-label">City:</label>
+                        <input type="text" class="form-control" id="cityAd">
+                      </div>
+                      <div class="form-group">
+                        <label for="dateAd" class="col-form-label">Date of Expiration:</label>
+                        <input type="date" class="form-control" id="dateAd">
+                      </div>
+					  <div >
+					    <input type='file' id="imgUpload" onchange="readURL(this);" /> 
+						<img class="ShowImage" src="#" />
+					  </div>
+						
+                  </form>
+                  </div>
+                  <div class="modal-footer d-flex justify-content-right">
+                  	<p id="error"><p>
+                  	<button type="button" class="btn btn-primary" id="editAdbutton">Edit</button>
+                    <button type="button" class="btn btn-primary" id="addAdbutton">Add</button>
+		            <button type="button" class="btn btn-secondary" data-dismiss="modal" id="closeAdd">Close</button>  
+		               
+                  </div>
+                </div>
+              </div>
+            </div>
+           <!-- Modal Add Category-->
+           <div class="modal fade" id="addCategoryTarget" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="tittleCategory">Add Category</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                          <label for="nameCategory" class="col-form-label">Name:</label>
+                          <input type="text" class="form-control" id="nameCategory">
+                        </div>
+                        <div class="form-group">
+                          <label for="descriptionCategory" class="col-form-label">Description:</label>
+                          <textarea class="form-control" id="descriptionCategory"></textarea>
+                        </div>
+			              </form>
+                  </div>
+                  <div class="modal-footer d-flex justify-content-right">
+                  	<p id="error1"></p>
+                    <button type="button" class="btn btn-primary" id="AddCategorybutton">Add</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" id="EditCategorybutton">Edit</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="modalClose">Close</button>                       
+                  </div>
+                </div>
+              </div>
+            </div>
+       
+            
+            <!-- Modal Preview-->
+            <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Product Preview</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <section class="single-product">
+				        <div class="container">
+				            <div class="row" id="previewProduct">
+				                <div class="col-md-5">
+				                </div>
+				                <div class="col-md-7"> 
+				                    <h2 id="productName"></h2>
+				                    <p class="text-muted" id="productStatus"></p>
+				                    <hr>
+				                    <p class="price">USD $</p>
+				                    <div class="likes">
+				                        <p id="likes"></p>
+				                    </div>
+				                    
+				                    <p id="city"></p>
+				                    <p id="date1"></p>
+				                    <p id="date2"></p>
+				                    <p id="category"></p>
+				                	<p id="seller"></p>
+				                	<button id="previewSendMessage" type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#MessageModal">Send Message</button>
+				                	<button id="previewReviewSeller" type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#reviewModal">Review Seller</button>			                	
+				                </div>
+				            </div>
+				        </div>
+				      </section>
+				
+				    <!--Product Description-->
+				    <section class="product-description" >
+				        <div class="container">
+				            <h6>Product Description</h6>
+				            <p></p>
+				            <hr>
+				        </div>
+				    </section>
+				    
+				    <section class="product-review" >
+				        <div id = "ReviewContainer" class="container">
+				            <h6>Product Reviews</h6>
+				           
+				            <hr>
+				        </div>
+				    </section>
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+        <!-- Modal Review -->
+        <div class="modal fade" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="tittleCategory">Review</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                   		<div class="form-group">
+                    		<p id="reviewSellerName"  class="text-muted"></p>
+                    	</div>
+                    	<div class="form-group">
+                    		<p id="reviewAdName"  class="text-muted"></p>
+                    	</div>
+                        <div class="form-group">
+                          <label for="reviewTitle" class="col-form-label">Title:</label>
+                          <input type="text" class="form-control" id="reviewTitle">
+                        </div>
+                        <div class="form-group">
+                          <label for="reviewContent" class="col-form-label">Content:</label>
+                          <textarea class="form-control" id="reviewContent"></textarea>
+                        </div>
+                        
+						<div class="input-group mb-3">
+					  		<div class="input-group-prepend">
+					    		<div class="input-group-text">
+					      			<input id="checkbox1" type="checkbox" aria-label="Checkbox for following text input">
+					    		</div>
+					  		</div>
+					  	<input type="text" class="form-control" value="The Ad is correct." aria-label="Text input with checkbox" disabled>
+						</div>
+						<div class="input-group mb-3">
+					  		<div class="input-group-prepend">
+					    		<div class="input-group-text">
+					      			<input id="checkbox2" type="checkbox" aria-label="Checkbox for following text input">
+					    		</div>
+					  		</div>
+					  	<input type="text" class="form-control" value="The deal was respected." aria-label="Text input with checkbox" disabled>
+						</div>
+						<div >
+						    <input type='file' id="imgUpload2" onchange="readURL(this);" /> 
+							<img class="ShowImage" src="#" />
+					  </div>
+			        </form>
+                  </div>
+                  <div class="modal-footer d-flex justify-content-right">
+                  	<p id="errorReview" style="color: red; font-size = 12px;"></p>
+                    <button type="button" class="btn btn-primary" id="AddReviewButton">Add</button>
+                    <button type="button" class="btn btn-primary"  id="EditReviewButton">Edit</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="modalCloseReview">Close</button>                       
+                  </div>
+                </div>
+              </div>
+            </div>
+         
+   
+       <!-----Message-------> 
+		 <div class="modal fade" id="MessageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="MessageModalLabel"></h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <form>
+		          <div class="form-group">
+		            <label for="recipient-name" class="col-form-label">Recipient:</label>
+		            <input type="text" class="form-control" id="recipient-name">
+		          </div>
+		           <div class="form-group">
+		            <label for="titleMessage" class="col-form-label">Title:</label>
+		            <input type="text" class="form-control" id="titleMessage">
+		          </div>
+		          <div class="form-group">
+		            <label for="message-text" class="col-form-label">Message:</label>
+		            <textarea class="form-control" id="message-text"></textarea>
+		          </div>
+		        </form>
+		      </div>
+		      <div class="modal-footer">
+		      	<p id="errorMessage" style="color: red; font-size: 12px;"></p>
+		      	<button type="button" class="btn btn-primary" id="editMessageButton">Edit message</button>
+		      	<button type="button" class="btn btn-primary" id="sendMessageButton">Send message</button>
+		        <button type="button" class="btn btn-secondary" id="closeMessageButton" data-dismiss="modal">Close</button>
+		        
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-----Modal ChangeRole-------> 
+		 <div class="modal fade" id="changeRole" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title">Change Role</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <form>
+		          <div class="form-group">
+		            <label for="selectRole" class="col-form-label">Select Role:</label>
+                     <select class="custom-select" id="selectRole">
+				    </select>	  
+		          </div>
+		        </form>
+		      </div>
+		      <div class="modal-footer">
+		      	<button type="button" class="btn btn-primary" id="changeRoleButton">Change</button>
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        
+		      </div>
+		    </div>
+		  </div>
+		</div>
+      
+	<!-----------Profile----------->
+	<section id="profile">
+		<div class="container">
+			<div class="row">
+			<img src="avatar.png" class="avatar col-md-3">
+			<div class="col-md-6" id="informations"></div>
+			<div class="col-md-3">
+			<div id="likesProfil">
+				<br>
+				<p id="likesSeller" style = "font-size: 40px"><i style = "color: #1c8adb;" class="fas fa-thumbs-up"></i> </p>
+				<p id="dislikesSeller" style = "font-size: 40px"><i style = "color: #1c8adb;" class="fas fa-thumbs-down"></i> </p>
+			</div>
+			</div>
+			<!-- Seller options -->
+			<div class="btn-group "  role="group" id="sellerOptions" >
+ 			  <div class="btn-group" role="group">
+			    <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			      My Ads<i class="fas fa-shopping-cart"></i>
+			    </button>
+			    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+			      <a id="myAds" class="dropdown-item" href="#">All ads</a>
+			      <a id="active" class="dropdown-item" href="#">Active</a>
+			      <a id="inRealization" class="dropdown-item" href="#">In realization</a>
+			      <a id="deliveredAd" class="dropdown-item" href="#">Delivered<i class="fa fa-check-circle"></i></a>
+			      
+			    </div>
+			    <div class="btn-group" role="group">
+			    <button id="btnGroupDrop2" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			      Messages<i class="fa fa-envelope"></i>
+			    </button>
+			    <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+			      <a id="receivedMessages3" class="dropdown-item" href="#">Received Messages<i class="fas fa-inbox"></i></a>
+			      <a id="sentMessages3" class="dropdown-item" href="#">Sent Messages<i class="fab fa-telegram-plane"></i></a>
+			     
+			    </div>
+ 			 <button id="ShowReviews" type="button" class="btn btn-light">Reviews</button>
+ 			 <button type="button" class="btn btn-primary" class="col-md-3" data-toggle="modal" data-target="#addAdTarget" id="addAd1">
+              Add New Ad
+            </button>		 
+  			</div>
+			  </div>
+			</div>
+			
+ 			
+  			
+  			
+  			<!-- Customer Options -->
+			<div class="btn-group"  role="group" id="customerOptions">
+		  	  <button id="WishList" type="button" class="btn btn-light">Wish list<i class="far fa-heart"></i></button>
+ 			  <button id ="CartList"type="button" class="btn btn-light">My Orders<i class="fas fa-shopping-cart"></i></button>
+ 			  <button id="deliveredAdCustomer" type="button" class="btn btn-light">Delivered<i class="fa fa-check-circle"></i></button> 			   
+ 			   <div class="btn-group" role="group">
+			    <button id="btnGroupDrop2" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			      Messages<i class="fa fa-envelope"></i>
+			    </button>
+			    <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+			      <a id="receivedMessages1" class="dropdown-item" href="#">Received Messages<i class="fas fa-inbox"></i></a>
+			      <a id="sentMessages1" class="dropdown-item" href="#">Sent Messages<i class="fab fa-telegram-plane"></i></a>
+			     
+			    </div>
+			  </div>
+			  
+			</div>
+			
+			
+			<!-- Administrator options -->
+			<div class="btn-group"  role="group" id="adminOptions">
+		  	   <div class="btn-group" role="group">
+			    <button id="btnGroupDrop2" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			      Messages<i class="fa fa-envelope"></i>
+			    </button>
+			    <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+			      <a id="receivedMessages2" class="dropdown-item" href="#">Received Messages<i class="fas fa-inbox"></i></a>
+			      <a id="sentMessages2" class="dropdown-item" href="#">Sent Messages<i class="fab fa-telegram-plane"></i></a>
+			     
+			    </div>
+			     <button type="button" class="btn btn-primary" class="col-md-3" data-toggle="modal" data-target="#addCategoryTarget" id="addCategory">
+              			Add New Category
+            	</button>
+			  </div>
+			  
+			</div>
+				
+				
+				
+			
+			
+		</div>
+		<section class="profilMessages" >
+			<div class="container">
+			<h2 id="poruka">Messages</h2>
+	        <div id="cardMessages">
+     				
+	        </div>
+	        </div>
+	    </section>
+		
+	</section>
+	
+	
+	
+    <!-----------Products----------->
+    <section class="featured-categories">
+        <div class="container">
+        <h2 id="description"></h2>
+          <div class="row " id="products">
+              
+         
+          </div>
+        </div>
+      </section>
+      
+    
+<!-- UserTable -->
+	<div class="container" id="UserTable">
+	      <table class="table  table-hover table-dark">
+		  <thead>
+		    <tr>
+		      <th scope="col">#</th>
+		      <th scope="col">First name</th>
+		      <th scope="col">Last name</th>
+		      <th scope="col">User name</th>
+		      <th scope="col">Role</th>
+		      <th scope="col">City</th>
+		      <th scope="col"></th>
+		      <th scope="col"></th>
+		      <th scope="col"></th>
+		    </tr>
+		  </thead>
+		  <tbody id="userBody">
+		   
+		  </tbody>
+		</table>
+		<p id="userTableSuccess"></p>
+	</div>
+	
+	<!-- CategoriesTable -->
+	<div class="container" id="CategoriesTable">
+	      <table class="table  table-hover table-dark" id="categoriesTable">
+		  <thead>
+		    <tr>
+		      <th scope="col">#</th>
+		      <th scope="col">Name</th>
+		      <th scope="col">Description</th>
+		      <th scope="col"></th>
+		      <th scope="col"></th>
+		    </tr>
+		  </thead>
+		  <tbody id="categoriesBody">
+		   
+		  </tbody>
+		</table>
+	</div>
+  
+    <!--Footer-->
+    <section class="footer">
+        <div class="container">
+            <hr>
+            <p class="copyright">Made with <i class="far fa-heart" aria-hidden="true"></i> by Tamara Jovicic </p>
+        </div>
+
+    </section>
+
+
+  </body>
+</html>

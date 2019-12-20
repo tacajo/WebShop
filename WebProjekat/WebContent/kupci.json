@@ -1,0 +1,203 @@
+[ {
+  "username" : "taca_jo",
+  "password" : "123",
+  "ime" : "Tamara",
+  "prezime" : "Jovicic",
+  "uloga" : "kupac",
+  "telefon" : "0644491483",
+  "grad" : "Novi Sad",
+  "email" : "tamarajovicic98@gmail.com",
+  "datum" : "2019-08-15",
+  "poslatePoruke" : [ {
+    "nazivOglasa" : "FLORAL PRINT  MIDI SKIRT",
+    "posiljalac" : "taca_jo",
+    "naslovPoruke" : "Floral skirt",
+    "sadrzaj" : "Could you tell me, which material is used to make this beautiful skirt.I look forward to hearing from you.",
+    "datumVreme" : "8/28/2019 23:13",
+    "aktivan" : true,
+    "primalac" : "imfashionbabe"
+  }, {
+    "nazivOglasa" : "ANIMAL PRINT MINI BAG",
+    "posiljalac" : "taca_jo",
+    "naslovPoruke" : "Information for mini bag",
+    "sadrzaj" : "Could you tell me dimension of this bag.Greeting.",
+    "datumVreme" : "8/28/2019 23:18",
+    "aktivan" : false,
+    "primalac" : "mrs_iv"
+  }, {
+    "nazivOglasa" : "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+    "posiljalac" : "taca_jo",
+    "naslovPoruke" : "Delivered: PINK COLLECTION TIED LEATHER HEELED SANDALS",
+    "sadrzaj" : "Dear, your Ad PINK COLLECTION TIED LEATHER HEELED SANDALS is delivered. You can see all your delivered ads in option My Ads>Delivered.",
+    "datumVreme" : "9/2/2019 16:31",
+    "aktivan" : true,
+    "primalac" : "imfashionbabe"
+  } ],
+  "primljenePoruke" : [ {
+    "nazivOglasa" : "",
+    "posiljalac" : "imfashionbabe",
+    "naslovPoruke" : "Reply to message",
+    "sadrzaj" : "Material is silk.",
+    "datumVreme" : "8/29/2019 14:58",
+    "aktivan" : true,
+    "primalac" : "taca_jo"
+  } ],
+  "poruceni": [
+    {
+      "naziv": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+      "cena": "250",
+      "opis": "Heeled leather sandals available in multiple colors: fuchsia and silver. Leather upper. Thin straps at front. Lined high heels. Squared toe. Tie ankle closure.",
+      "lajk": 6,
+      "dislajk": 7,
+      "slika": "/images/heels3.jpg",
+      "datumPostavljanja": "1569628800000",
+      "datumIsticanja": "1573603200000",
+      "aktivan": true,
+      "recenzije": [
+        {
+          "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+          "recenzent": "taca_jo",
+          "naslov": "Incorrect information",
+          "sadrzaj": "Heel height is 11.5 cm.",
+          "slika": "/images/heels31.jpg",
+          "oglasTacan": true,
+          "dogovor": true,
+          "aktivan": true
+        },
+        {
+          "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+          "recenzent": "taca_jo",
+          "naslov": "Deal",
+          "sadrzaj": "I am waiting for order more then 1 month! But the heels are beautiful.",
+          "slika": "/images/heels32.jpg",
+          "oglasTacan": true,
+          "dogovor": false,
+          "aktivan": false
+        },
+        {
+          "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+          "recenzent": "taca_jo",
+          "naslov": "Order",
+          "sadrzaj": "The product is visually perfect, that being sad this is one of the few cases in AliExpress in which you have to get your exact size or smaller. My shoes are good to walk in (mostly) and are lovely. They are a bit slippery so I might have to get them fixed. It was sadly a whole 3 days later then it was supposed to be here. But itÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s still here early and the seller was respectful.",
+          "slika": "",
+          "oglasTacan": true,
+          "dogovor": true,
+          "aktivan": true
+        }
+      ],
+      "grad": "Beograd, Serbia",
+      "kategorija": "Heels",
+      "status": "dostavljen",
+      "prodavac": "imfashionbabe",
+      "wished": 10
+    }
+  ],
+  "dostavljeni": [
+    {
+      "naziv": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+      "cena": "250",
+      "opis": "Heeled leather sandals available in multiple colors: fuchsia and silver. Leather upper. Thin straps at front. Lined high heels. Squared toe. Tie ankle closure.",
+      "lajk": 6,
+      "dislajk": 7,
+      "slika": "/images/heels3.jpg",
+      "datumPostavljanja": "1569628800000",
+      "datumIsticanja": "1573603200000",
+      "aktivan": true,
+      "recenzije": [
+        {
+          "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+          "recenzent": "taca_jo",
+          "naslov": "Incorrect information",
+          "sadrzaj": "Heel height is 11.5 cm.",
+          "slika": "/images/heels31.jpg",
+          "oglasTacan": true,
+          "dogovor": true,
+          "aktivan": true
+        },
+        {
+          "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+          "recenzent": "taca_jo",
+          "naslov": "Deal",
+          "sadrzaj": "I am waiting for order more then 1 month! But the heels are beautiful.",
+          "slika": "/images/heels32.jpg",
+          "oglasTacan": true,
+          "dogovor": false,
+          "aktivan": false
+        },
+        {
+          "oglas": "PINK COLLECTION TIED LEATHER HEELED SANDALS",
+          "recenzent": "taca_jo",
+          "naslov": "Order",
+          "sadrzaj": "The product is visually perfect, that being sad this is one of the few cases in AliExpress in which you have to get your exact size or smaller. My shoes are good to walk in (mostly) and are lovely. They are a bit slippery so I might have to get them fixed. It was sadly a whole 3 days later then it was supposed to be here. But itÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s still here early and the seller was respectful.",
+          "slika": "",
+          "oglasTacan": true,
+          "dogovor": true,
+          "aktivan": true
+        }
+      ],
+      "grad": "Beograd, Serbia",
+      "kategorija": "Heels",
+      "status": "dostavljen",
+      "prodavac": "imfashionbabe",
+      "wished": 10
+    }
+  ],
+  "omiljeni" : [ ],
+  "likedDislikedAd" : [ "PINK COLLECTION TIED LEATHER HEELED SANDALS" ],
+  "likedDislikedSeller": [ "imfashionbabe" ],
+  "report" :  0
+}, {
+  "username" : "jellena97",
+  "password" : "123",
+  "ime" : "Jelena",
+  "prezime" : "Brakus",
+  "uloga" : "kupac",
+  "telefon" : "063247423",
+  "grad" : "Ruma, Serbia",
+  "email" : "jelenavlada12.jb@gmail.com",
+  "datum" : "2019-09-02",
+  "poslatePoruke" : [ ],
+  "primljenePoruke" : [ ],
+  "poruceni" : [ ],
+  "dostavljeni" : [ ],
+  "omiljeni" : [ ],
+  "likedDislikedAd" : [ ],
+  "likedDislikedSeller": [],
+  "report" : 0
+}, {
+  "username" : "kupac",
+  "password" : "123",
+  "ime" : "kupac",
+  "prezime" : "kupac",
+  "uloga" : "kupac",
+  "telefon" : "065432158",
+  "grad" : "Beograd",
+  "email" : "kupac@gmail.com",
+  "datum" : "2019-08-26",
+  "poslatePoruke" : [ ],
+  "primljenePoruke" : [ ],
+  "poruceni" : [ ],
+  "dostavljeni" : [ ],
+  "omiljeni" : [ ],
+  "likedDislikedAd" : [ ],
+  "likedDislikedSeller": [],
+  "report" : 0
+}, {
+  "username" : "daca",
+  "password" : "123",
+  "ime" : "Dajana",
+  "prezime" : "Jovicic",
+  "uloga" : "kupac",
+  "telefon" : "0669220874",
+  "grad" : "Novi Sad",
+  "email" : "jovichicdajana@gmail.com",
+  "datum" : "2019-08-15",
+  "poslatePoruke" : [ ],
+  "primljenePoruke" : [ ],
+  "poruceni" : [ ],
+  "dostavljeni" : [ ],
+  "omiljeni" : [ ],
+  "likedDislikedAd" : [ ],
+  "likedDislikedSeller": [],
+  "report" : 0
+} ]

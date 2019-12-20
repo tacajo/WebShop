@@ -1,0 +1,250 @@
+*
+{
+    margin:  0;
+    padding: 0;     
+}
+body
+{
+    background: url(./images/pozadina.jpg) no-repeat center center fixed; 
+    background-size: cover; 
+    background-color: #f1f3f4;
+    font-family: sans-serif;
+}
+#logo
+{
+    height: 40px;
+    width: 40px;
+    margin: 5px 10px;
+    cursor: pointer;
+
+}
+#addAd
+{
+	margin-top: 100px;
+}
+.navbar{
+	background-color:  rgba(0, 0, 0, 0.7) !important;
+	color: #fff;
+}
+#users
+{
+	margin-right: 5px;
+	margin-left: 15px
+}
+.fa-star
+{
+    color: yellow;
+    margin-left: 5px;
+}
+.fa-angle-right
+{
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+.fa-envelope
+{
+    color: lightblue;
+    margin-left: 5px;
+}
+.fa-check-circle
+{
+    color: green;
+    margin-left: 5px;
+}
+
+
+
+
+/*---footer---*/
+.footer {
+    margin-top: 160px; 
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.footer p
+{
+    font-size: 12px;
+}
+.copyright
+{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.fa-heart
+{
+	margin-left: 5px;
+    color: red;
+    font-size: 15px;
+}
+
+/*----featured-categories----*/
+
+#products .card:hover{
+	 box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+	 transform: scale(1.025);
+}
+
+/*---single-product---*/
+.single-product img
+{  
+    width: 100%;
+    
+}
+.single-product .price
+{
+    color: #1c8adb;
+    font-size: 16px;
+    font-weight: bold;  
+    text-align: center;
+}
+.single-product h2
+{
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+.single-product #productStatus
+{
+	 text-align: center;
+	 font-size: 12px;
+}
+.single-product .likes
+{
+    color: #fff;
+    text-align: center;
+}
+.single-product .likes .fa
+{
+    margin: 10px;
+    font-size: 20px;
+}
+.single-product p
+{
+    color: black;   
+}
+.single-product .btn-primary
+{
+    margin-bottom: 30px;  
+}
+/*---product-description---*/
+.product-description h6, .product-review h6
+{
+    margin-top: 50px;
+    color: #1c8adb;
+    font-weight: bold;
+    margin-left: 50px;
+    text-shadow: #000;
+    
+}
+.product-description p, .product-review p
+{
+    margin-top: 30px;
+
+}
+
+#description, #poruka
+{
+	margin-top: 100px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow:2px 2px 4px #000000;
+}
+table
+{
+	margin-top: 100px;	
+}
+#informations, #likesProfil
+{
+	margin-top: 10px;
+    text-decoration: none;
+	color: #fff;
+	list-style:none;
+	font-size: 18px;
+
+	text-shadow:2px 2px 4px #000000;	
+}
+.fa-pencil-alt
+{
+	margin-left: 5px;
+	margin-right: 10px;
+	color: #1c8adb;
+    font-size: 15px;
+    
+}
+#profile{
+	margin-top: 100px;
+}
+.card-footer i
+{
+	cursor: pointer;
+   background-color: #fff;
+   color: #000;
+   height: 35px;
+   width: 35px;
+   font-size: 20px;
+   padding: 7px;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   
+}
+.card-footer button
+{
+	background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.fa-heart:hover 
+{
+	color: red;
+}
+#description .fa-heart{
+	
+	font-size: 30px;
+
+}
+.fa-cart-plus:hover 
+{
+	color: #1c8adb;
+}
+.fa-shopping-cart, .fa-inbox, .fa-telegram-plane{
+	color: #1c8adb;
+	margin-left: 5px;
+}
+#cardMessages .card{
+	margin-top: 10px;
+}
+.fa-reply{
+	margin-left: 15px;
+}
+.fa-users-cog{
+	color: lightgray;
+    margin-left: 5px;
+}
+#review{
+	height: 30px;
+   width: 30px;
+}
+p.card-text{
+	margin: 0px 0px 0px 0px;
+}
+.card{
+	margin-buttom: 5px;
+}
+#searchMenu, #searchUserMenu
+{
+	margin-top: 100px;
+}
+#reportAd:hover, #reportAd2:hover{
+	color: red;
+}
+#RemoveBan {
+	text-decoration: none;
+	color: #fff;
+}
+#RemoveBan:hover {
+	color:red;
+}
